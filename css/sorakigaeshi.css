@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+/**
+ * 空木返し
+ */
+.furusoma-lamberjack {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 1px;
+}
+/* 設定画面: li の左側にインデントを付ける */
+#furusoma_taxonomies_checkboxes-table .children {
+    margin-left: 2rem;
+}
+/* 設定画面: チェックを外せない通知を表示 */
+.furusoma_notice {
+    margin-left: 0.4rem;
+    background-color: #fff;
+    padding: 0.2rem 0.4rem;
+}
+.furusoma_notice::before {
+    content: "(!)";
+    margin-right: 0.2rem;
+}
