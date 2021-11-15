@@ -60,7 +60,7 @@ class EsseEstPercipi
      */
     public function _h( $str )
     {
-        return htmlspecialchars( $str, ENT_NOQUOTES, ENCODING );
+        return htmlspecialchars( $str, ENT_NOQUOTES, self::ENCODING );
     }
     /**
      * チェーンソー: JSONエンコード
