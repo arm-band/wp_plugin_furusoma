@@ -258,7 +258,6 @@ class Furusoma
 <?php wp_nonce_field( $this->c['FURUSOMA'] . '_options', 'name_of_nonce_field' ); ?>
 <?php submit_button( '設定を保存', 'primary large', 'submit', true, [ 'tabindex' => '1' ] ); ?>
             </form>
-            <div id="<?= esc_attr( esc_attr( $this->c['FURUSOMA'] ) ); ?>_pluginurl" data-pluginurl="<?= esc_attr( plugins_url() ); ?>"></div>
         </div>
 
 <?php
