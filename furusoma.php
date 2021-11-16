@@ -2,7 +2,7 @@
 /*
 Plugin Name: Furusoma
 Description: 管理者画面(記事編集画面、投稿一覧ページでの簡易編集画面)で任意のカテゴリー、タグ、カスタムタクソノミーのチェックボックスを非表示にする簡易なプラグイン
-Version:     0.2.0
+Version:     0.2.1
 Author:      アルム＝バンド
 License: MIT
 */
