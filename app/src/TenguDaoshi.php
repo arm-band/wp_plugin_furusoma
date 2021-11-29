@@ -55,7 +55,7 @@ class TenguDaoshi extends \Walker_Category_Checklist
             $name = 'post_category';
         }
         else {
-            $name = 'tax_input[' . $taxonomy . ']';
+            $name = $taxonomy;
         }
 
         $class = in_array( $category->term_id, $popular_cats ) ? ' class="popular-category"' : '';
